@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 header {
   display: flex;
   justify-content: center;
@@ -34,6 +35,7 @@ nav {
 
 .navbar li {
   padding: 0 20px;
+  width: 136px;
 }
 
 li:first-child {
@@ -64,9 +66,9 @@ li:first-child {
 }
 
 .center-logo .jcrea {
-  color: #ff6600;
+  color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -75,6 +77,7 @@ li:first-child {
 }
 
 /* Hero section */
+
 .hero {
   width: 100%;
   display: flex;
@@ -133,6 +136,7 @@ li:first-child {
   position: absolute;
   top: 27px;
   left: 500px;
+  width: 40px;
 }
 
 .highlight {
@@ -143,6 +147,7 @@ li:first-child {
   position: relative;
   top: 287px;
   left: 47px;
+  width: 50px;
 }
 
 .hero-left {
@@ -243,6 +248,7 @@ li:first-child {
 .hero-right .exp {
   margin-left: 93px;
 }
+
 .hero-col {
   display: flex;
   flex-direction: row;
@@ -274,6 +280,7 @@ li:first-child {
 }
 
 /* sercice sectio */
+
 .service_section {
   width: 100%;
   display: flex;
@@ -284,7 +291,7 @@ li:first-child {
   background-image: url(../images/bg.png);
   width: 100%;
   max-width: 1530px;
-  height: 100vh;
+  height: 900px;
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -298,10 +305,9 @@ li:first-child {
   display: flex;
   justify-content: space-between;
   gap: 455px;
-  padding-top: 50px;
+  padding-top: 120px;
   padding-right: 71px;
   position: relative;
-  left: 71px;
 }
 
 .serv_span {
@@ -312,6 +318,8 @@ li:first-child {
   max-width: 268px;
   height: 48px;
   font-size: 48px;
+  position: relative;
+  left: 117px;
 }
 
 .content p {
@@ -324,6 +332,112 @@ li:first-child {
   text-align: left;
   position: relative;
   right: 34px;
+}
+
+hr {
+  width: 415px;
+  position: absolute;
+  top: 94px;
+  color: #f9fafb4d;
+  border: 0.11px solid;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 97px;
+  gap: 25px;
+}
+
+.col {
+  width: 416px;
+  height: 508px;
+  gap: 10px;
+  position: relative;
+}
+
+.col .section2-left {
+  width: 100%;
+}
+.col h4 {
+  position: absolute;
+  width: 342px;
+  height: 42px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Lufga;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 41.77px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  display: flex;
+  top: 30px;
+  padding-left: 35px;
+}
+
+.col .navigate {
+  position: absolute;
+  top: 390px;
+  right: 15px;
+  background-color: #1d2939;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.navigation {
+  width: 139.5px;
+  height: 15.08px;
+  gap: 11.31px;
+  opacity: 0px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 39px;
+}
+
+.line {
+  width: 60.32px;
+  height: 15.08px;
+  gap: 0px;
+  border-radius: 20.74px;
+  opacity: 0px;
+  background-color: #fd853a;
+  position: absolute;
+  left: -5px;
+}
+
+.circle2 {
+  width: 15.08px;
+  height: 15.08px;
+  gap: 0px;
+  border-radius: 20.74px;
+  background-color: #e4e7ec;
+  position: absolute;
+  left: 86px;
+}
+
+.circle3 {
+  width: 15.08px;
+  height: 15.08px;
+  gap: 0px;
+  border-radius: 20.74px;
+  background-color: #e4e7ec;
+  position: absolute;
+  left: 107px;
+}
+
+.circle1 {
+  width: 15.08px;
+  height: 15.08px;
+  gap: 0px;
+  border-radius: 20.74px;
+  background-color: #e4e7ec;
+  position: absolute;
+  left: 65px;
 }
 
 /* Experience */
@@ -340,7 +454,7 @@ li:first-child {
 }
 
 .experience h3 {
-  max-width: 572px;
+  max-width: 583px;
   height: 64px;
   font-size: 64px;
   font-weight: 500;
@@ -370,6 +484,11 @@ li:first-child {
   text-align: left;
   position: relative;
   left: 71px;
+}
+
+.exp-img-col img{
+    width:48px;
+    height:400px;
 }
 
 .exp-col2 {
