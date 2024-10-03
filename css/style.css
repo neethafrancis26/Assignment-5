@@ -11,6 +11,8 @@ header {
   padding-top: 40px;
 }
 
+/* Navbar */
+
 nav {
   width: 100%;
   max-width: 1298px;
@@ -58,6 +60,36 @@ li:first-child {
   justify-content: center;
   text-align: center;
   margin-right: 40px;
+  position: relative;
+}
+
+.center-logo .jcrea .author {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.jatesh {
+  font-size: 13px;
+  color: #c5cdd8;
+  padding-right: 45px;
+}
+
+.center-logo .author {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  opacity: 0;
+  font-weight: bold;
+  width: 150px;
+  height: 400px;
+  font-size: 20px;
+}
+
+.center-logo:hover .jcrea {
+  opacity: 0;
+}
+
+.center-logo:hover .author {
+  opacity: 1;
 }
 
 .center-logo .logo {
@@ -115,7 +147,7 @@ li:first-child {
   padding: 12.75px 25.49px 12.75px 25.49px;
   gap: 6.37px;
   border-radius: 38.24px;
-  border: 1.27px solid;
+  border: 1.27px solid #171717;
   opacity: 0px;
   display: flex;
   justify-content: center;
@@ -181,6 +213,7 @@ li:first-child {
   top: 283px;
   left: 222px;
   background: #ffffff1a;
+  border: 1px solid #c9a;
 }
 
 .btn_portfolio {
@@ -279,7 +312,7 @@ li:first-child {
   left: -71px;
 }
 
-/* sercice sectio */
+/* service section */
 
 .service_section {
   width: 100%;
@@ -334,7 +367,7 @@ li:first-child {
   right: 34px;
 }
 
-hr {
+.hr-line {
   width: 415px;
   position: absolute;
   top: 94px;
@@ -360,14 +393,16 @@ hr {
 
 .col .section2-left {
   width: 100%;
+  border-radius: 37px;
 }
+
 .col h4 {
   position: absolute;
   width: 342px;
   height: 42px;
   gap: 0px;
   opacity: 0px;
-  font-family: Lufga;
+  font-family: "Roboto", sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 41.77px;
@@ -378,13 +413,35 @@ hr {
   padding-left: 35px;
 }
 
-.col .navigate {
+.col .nav-btn {
+  width: 114px;
+  height: 114px;
+  padding: 21px;
+  gap: 10px;
+  border-radius: 50%;
   position: absolute;
   top: 390px;
-  right: 15px;
+  right: 3px;
   background-color: #1d2939;
+  border: none;
+}
+
+.navigate {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navigate:hover {
+  transform: rotate(45deg);
+  background-color: #fd853a;
+}
+
+.col .navigate {
+  position: absolute;
+  width: 114px;
+  top: 0px;
+  right: 0px;
   border-radius: 50%;
-  width: 100px;
 }
 
 .navigation {
@@ -486,9 +543,9 @@ hr {
   left: 71px;
 }
 
-.exp-img-col img{
-    width:48px;
-    height:400px;
+.exp-img-col img {
+  width: 48px;
+  height: 400px;
 }
 
 .exp-col2 {
