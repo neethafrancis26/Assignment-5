@@ -27,22 +27,21 @@ nav {
 .navbar {
   display: flex;
   flex-direction: row;
-  gap: 5%;
   align-items: center;
   margin: 0 auto;
   list-style: none;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .navbar li {
   padding: 0 20px;
-  width: 136px;
+  max-width: 136px;
 }
 
 li:first-child {
   background-color: #ff6600;
-  width: 136px;
+  max-width: 136px;
   height: 66px;
   padding: 20px 40px 20px 40px;
   gap: 10px;
@@ -93,7 +92,7 @@ li:first-child {
 }
 
 .center-logo .logo {
-  width: 46px;
+  max-width: 46px;
   margin-right: 10px;
 }
 
@@ -105,7 +104,7 @@ li:first-child {
   text-align: center;
   justify-content: center;
   position: relative;
-  top: 10px;
+  top: 13px;
 }
 
 /* Hero section */
@@ -127,11 +126,13 @@ li:first-child {
 
 .hello {
   margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .hero-text h1 {
   margin-top: 0;
-  width: 913px;
+  max-width: 913px;
   height: 192px;
   font-size: 95.57px;
   font-weight: 600;
@@ -139,6 +140,7 @@ li:first-child {
   letter-spacing: -0.015em;
   text-align: center;
   margin-top: 10px;
+  color: #171717;
 }
 
 .hero-text button {
@@ -166,19 +168,19 @@ li:first-child {
 
 .hero-text .up {
   position: absolute;
-  top: 27px;
-  left: 500px;
+  top: 28px;
+  left: 405px;
   width: 40px;
 }
 
 .highlight {
-  color: #ff6600;
+  color: #fd853a;
 }
 
 .hero-text .down {
   position: relative;
   top: 287px;
-  left: 47px;
+  left: -48px;
   width: 50px;
 }
 
@@ -309,7 +311,7 @@ li:first-child {
   height: 636px;
   position: absolute;
   top: -231px;
-  left: -71px;
+  left: -64px;
 }
 
 /* service section */
@@ -431,7 +433,7 @@ li:first-child {
   background-color: #fd853a;
 }
 
- .navigate {
+.navigate {
   position: absolute;
   width: 114px;
   top: 0px;
@@ -439,7 +441,6 @@ li:first-child {
   border-radius: 50%;
   transform: rotate(0deg);
   transition: transform 0.3s ease-in-out;
-  
 }
 
 .navigation {
@@ -521,6 +522,7 @@ li:first-child {
   text-align: center;
   margin: auto;
   margin-bottom: 100px;
+  color: #344054;
 }
 
 .exp-row {
@@ -608,5 +610,3 @@ li:first-child {
   text-align: left;
   color: #344054;
 }
-
-
