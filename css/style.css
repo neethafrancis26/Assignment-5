@@ -421,14 +421,9 @@ li:first-child {
   border-radius: 50%;
   position: absolute;
   top: 390px;
-  right: 3px;
+  right: 4px;
   background-color: #1d2939;
   border: none;
-}
-
-.navigate {
-  transform: rotate(0deg);
-  transition: transform 0.3s ease-in-out;
 }
 
 .navigate:hover {
@@ -436,12 +431,15 @@ li:first-child {
   background-color: #fd853a;
 }
 
-.col .navigate {
+ .navigate {
   position: absolute;
   width: 114px;
   top: 0px;
   right: 0px;
   border-radius: 50%;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+  
 }
 
 .navigation {
@@ -506,7 +504,7 @@ li:first-child {
   text-align: center;
   margin: auto;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 90px;
   margin-bottom: 100px;
 }
 
@@ -527,7 +525,7 @@ li:first-child {
 .exp-row {
   display: flex;
   flex-direction: row;
-  width: 1, 298px;
+  max-width: 1, 298px;
   height: 438px;
   justify-content: space-between;
 }
@@ -535,7 +533,7 @@ li:first-child {
 .exp-col {
   display: flex;
   flex-direction: column;
-  width: 495px;
+  max-width: 495px;
   height: 400px;
   gap: 48px;
   text-align: left;
@@ -544,7 +542,7 @@ li:first-child {
 }
 
 .exp-img-col img {
-  width: 48px;
+  max-width: 48px;
   height: 400px;
 }
 
@@ -565,7 +563,7 @@ li:first-child {
 }
 
 .exp-desc {
-  width: 216px;
+  max-width: 216px;
   height: 24px;
   font-size: 24px;
   font-weight: 400;
@@ -609,3 +607,5 @@ li:first-child {
   text-align: left;
   color: #344054;
 }
+
+
